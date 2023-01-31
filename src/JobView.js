@@ -1,7 +1,9 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import styled from "./jobview.module.css";
 
-const JobView = () => {
+
+const JobView = ({title="backend"}) => {
   // const [Jobview, setjobview] = useState("");
   // const [jobdescription, setJobdescription] = useState("");
   // const [department, setDepartment] = useState(""); // for single drop down
@@ -93,34 +95,40 @@ const JobView = () => {
 
   return <div className={styled.jobview}>
       {" "}
+      <div className={styled.herosec}>
       <h1 className={styled.heading}>Job View</h1>
+      <section className={styled.icon}>
+      <i className="fa fa-pencil-square" aria-hidden="true"></i></section>
+      <span>Edit</span>
+      </div>
       <div className={styled.title}>
-        <h2 className={styled.heading1}>Title</h2>
-        <span>:</span>
+        <h2 className={styled.heading1}>Title:</h2>
+   
         <p className={styled.paragrap1}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
       </div>
       <div className={styled.jobdescription}>
-        <h2 className={styled.heading2}>Job Description</h2>
-        <span>:</span>
+        <h2 className={styled.heading2}>Job Description:</h2>
+        
         <p className={styled.paragrap2}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
       </div>
       <div className={styled.department}>
-        <h2 className={styled.heading3}>Department</h2>
-        <span>:</span>
+        <h2 className={styled.heading3}>Department:</h2>
+     
         <p className={styled.paragrap3}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
       </div>
+      <div className={styled.responsibilities1}>
       <div className={styled.responsibilities}>
-        <h2 className={styled.heading4}>Responsibilities</h2>
-        <span>:</span>
+        <h2 className={styled.heading4}>Responsibilities:</h2>
+      
         <p className={styled.paragrap4}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -131,9 +139,11 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+      <div className={styled.degrees1}>
       <div className={styled.degrees}>
-        <h2 className={styled.heading5}>Degrees/Education</h2>
-        <span>:</span>
+        <h2 className={styled.heading5}>Degrees/Education:</h2>
+    
         <p className={styled.paragrap5}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -144,9 +154,11 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+      <div className={styled.employement1}>
       <div className={styled.employement}>
-        <h2 className={styled.heading6}>Employement</h2>
-        <span>:</span>
+        <h2 className={styled.heading6}>Employement:</h2>
+ 
         <p className={styled.paragrap6}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -157,9 +169,11 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+      <div className={styled.softskills1}>
       <div className={styled.softskills}>
-        <h2 className={styled.heading7}>Soft Skills</h2>
-        <span>:</span>
+        <h2 className={styled.heading7}>Soft Skills:</h2>
+
         <p className={styled.paragrap7}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -170,8 +184,10 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+      <div className={styled.technicalskills1}>
       <div className={styled.technicalskills}>
-        <h2 className={styled.heading8}>TechnicalSkills</h2>
+        <h2 className={styled.heading8}>Technical Skills:</h2>
         <span>:</span>
         <p className={styled.paragrap8}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -183,9 +199,11 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+      <div className={styled.perksandbenefits1}>
       <div className={styled.perksandbenefits}>
-        <h2 className={styled.heading9}>Perks and benefits</h2>
-        <span>:</span>
+        <h2 className={styled.heading9}>Benefits</h2>
+     
         <p className={styled.paragrap9}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -196,33 +214,36 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+    
       <div className={styled.location}>
-        <h2 className={styled.heading10}>Location</h2>
-        <span>:</span>
+        <h2 className={styled.heading10}>Location:</h2>
+        
         <p className={styled.paragrap10}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
       </div>
       <div className={styled.experience}>
-        <h2 className={styled.heading11}>Experience</h2>
-        <span>:</span>
+        <h2 className={styled.heading11}>Experience:</h2>
+       
         <p className={styled.paragrap11}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
       </div>
       <div className={styled.vacancies}>
-        <h2 className={styled.heading12}>No#Vacancies</h2>
-        <span>:</span>
+        <h2 className={styled.heading12}>Vacancies:</h2>
+       
         <p className={styled.paragrap12}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
       </div>
+      <div className={styled.gender1}>
       <div className={styled.gender}>
-        <h2 className={styled.heading13}>Gender</h2>
-        <span>:</span>
+        <h2 className={styled.heading13}>Gender:</h2>
+     
         <p className={styled.paragrap13}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -233,9 +254,11 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
+      <div className={styled.travelling1}>
       <div className={styled.travelling}>
-        <h2 className={styled.heading14}>Require Travelling</h2>
-        <span>:</span>
+        <h2 className={styled.heading14}>Require Travelling:</h2>
+    
         <p className={styled.paragrap14}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
@@ -246,16 +269,14 @@ const JobView = () => {
         <li>Write well designed, testable, efficient code</li>
         <li>Ensure designs are in compliance with specifications</li>
       </ul>
+      </div>
       <div className={styled.closingdate}>
-        <h2 className={styled.heading15}>Closing Date</h2>
-        <span>:</span>
+        <h2 className={styled.heading15}>Closing Date:</h2>
+     
         <p className={styled.paragrap15}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{" "}
         </p>
-      </div>
-      <div className={styled.button}>
-        <button className={styled.button}>Update</button>
       </div>
     </div>
   
