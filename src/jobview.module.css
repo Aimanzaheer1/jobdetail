@@ -16,11 +16,7 @@ h1.heading {
     display: flex;
     gap: 12px;
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
+   
     
 
 }
@@ -49,11 +45,7 @@ span {
     display: flex;
     gap: 12px;
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
+    
 
 }
 .heading2{
@@ -80,11 +72,7 @@ span {
     display: flex;
     gap: 12px;
     text-align: center;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
+  
 }
 .heading3{
     font-family: 'Poppins', sans-serif;
@@ -133,56 +121,12 @@ p.paragrap1 {
         width: 556px;
         margin-left: 177px;   
     }
-.degrees1{
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
-}
+
 
 ul.responsibilitieslist {
     margin-top: -4px;
     margin-left: 241px;
 }
-.responsibilities1 {
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
-
-}
-.employement1 {
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-.softskills1 {
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
-
-}
-.technicalskills1{
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-.perksandbenefits1{
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
-}
-
 p.paragrap2 {
    
     width: 556px;
@@ -372,11 +316,7 @@ ul.softskillslist{
  .location{
     display: flex;
     gap: 12px;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
+  
      text-align: center;
  }
  .heading10{
@@ -405,11 +345,7 @@ ul.softskillslist{
 
  .experience{
     display: flex;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
+   
     gap: 12px;
      text-align: center;
  }
@@ -438,11 +374,7 @@ ul.softskillslist{
  .vacancies{
     display: flex;
     gap: 12px;
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
+    
      text-align: center;
  }
  .heading12{
@@ -472,20 +404,8 @@ ul.softskillslist{
     gap: 12px;
      text-align: center;
  }
- .gender1{
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content;
- }
- .travelling1{
-    border-bottom-style: solid;
-    border-bottom-width: 0.1px;
-    border-color: #8080808a;
-    width: -moz-fit-content;
-    width: fit-content; 
- }
+ 
+
  .heading13{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -566,8 +486,12 @@ ul.softskillslist{
    
      }
  span{
-         margin-top: 25px;
-         font-weight: 900;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    top: -5px;
+    color: white;
  }
  p.paragrap15{
     
@@ -578,13 +502,41 @@ ul.softskillslist{
 
  section.icon {
     font-size: 35px;
-    color: blue;
+    color: white;
     position: relative;
-    padding-left: 570px;
+    padding-left: 18px;
     top: 14px;
-    right: 13px;
+    height: 42px;
+    /* right: 0px; */
+    background-color: #1877f2;
+    border-radius: 20px;
+    left: 521px;
+    width: 104px;
 }
 
 .herosec{
     display: flex;
+   
 }
+section.line {
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-color: #8080808a;
+}  
+section.line2{
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-color: #8080808a;
+}  
+section.line3{
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-color: #8080808a;
+}    
+section.line4{
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-color: #8080808a;
+    width: 30px;
+}   
+
