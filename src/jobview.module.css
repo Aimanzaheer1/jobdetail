@@ -487,31 +487,33 @@ ul.softskillslist{
      }
  span{
     margin-top: 25px;
-    font-size: 22px;
     font-weight: 900;
     position: relative;
-    top: -5px;
+    font-size: 15px;
     color: white;
+    top: 10px;
+
  }
  p.paragrap15{
     
      width: 556px;
-    
      margin-left: 77px;
  }
 
  section.icon {
-    font-size: 35px;
+  
     color: white;
     position: relative;
-    padding-left: 18px;
-    top: 14px;
+    /* padding-left: 18px; */
+    top: 20px;
     height: 42px;
     /* right: 0px; */
     background-color: #1877f2;
     border-radius: 20px;
-    left: 521px;
-    width: 104px;
+    left: 529px;
+    /* padding-top: 20px; */
+    text-align: center;
+    width: 120px;
 }
 
 .herosec{
@@ -539,4 +541,10 @@ section.line4{
     border-color: #8080808a;
     width: 30px;
 }   
+.fa-regular .far {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    top: 10px;
+    position: relative;
+}
 
